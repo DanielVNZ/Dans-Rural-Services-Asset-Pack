@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 15,
+        "$rlength": 16,
         "$rcontent": [
             {
                 "$id": 2,
@@ -1896,7 +1896,7 @@
                 "active": true,
                 "m_Group": $fstrref:"UnityGUID:60e6fba7c9a689348bccbce5cf0ef55d",
                 "m_Priority": 0,
-                "m_Icon": "assetdb://Global/e02bbadc0c079a2b18c148327cf8a5e3",
+                "m_Icon": "assetdb://Global/b78350fbcd90a4489a93816bc646a2f1",
                 "m_IsDebugObject": false
             },
             {
@@ -1939,17 +1939,32 @@
                     ]
                 },
                 "m_IgnoreDependencies": false
+            },
+            {
+                "$id": 94,
+                "$type": "38|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 95,
+                    "$type": "39|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "DVNZ/Rural/Buildings/"
+                    ]
+                },
+                "m_ExcludeCategories": null
             }
         ]
     },
     "m_Meshes": {
-        "$id": 94,
-        "$type": "38|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 96,
+        "$type": "40|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 95,
-                "$type": "39|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 97,
+                "$type": "41|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:f7c80d027f087b04499b59b3ccc6fc47",
                 "m_Position": {
                     "$type": 5,

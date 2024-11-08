@@ -6,7 +6,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 19,
+        "$rlength": 20,
         "$rcontent": [
             {
                 "$id": 2,
@@ -2385,7 +2385,7 @@
                 "active": true,
                 "m_Group": $fstrref:"UnityGUID:e9c676386b29dd84e865ce3106d2b680",
                 "m_Priority": 0,
-                "m_Icon": "assetdb://Global/5138d086019f8d768dcf8c6772094365",
+                "m_Icon": "assetdb://Global/e4ecf0cd866b4e16a87e9f42bba644e3",
                 "m_IsDebugObject": false
             },
             {
@@ -2417,17 +2417,32 @@
                 "name": "ResourceConsumer",
                 "active": true,
                 "m_NoResourceNotificationPrefab": $fstrref:"UnityGUID:69f6a1eb7027c034c9dc6e046c21ac40"
+            },
+            {
+                "$id": 120,
+                "$type": "48|Game.Prefabs.EditorAssetCategoryOverride, Game",
+                "name": "EditorAssetCategoryOverride",
+                "active": true,
+                "m_IncludeCategories": {
+                    "$id": 121,
+                    "$type": "49|System.String[], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        "DVNZ/Rural/Buildings/"
+                    ]
+                },
+                "m_ExcludeCategories": null
             }
         ]
     },
     "m_Meshes": {
-        "$id": 120,
-        "$type": "48|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 122,
+        "$type": "50|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 121,
-                "$type": "49|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 123,
+                "$type": "51|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"UnityGUID:651c4f0212654a54db40acd92e34ba60",
                 "m_Position": {
                     "$type": 5,

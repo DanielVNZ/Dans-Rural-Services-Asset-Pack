@@ -19,10 +19,12 @@ Hope you Enjoy!
 * Rural Recycling Centre (2 Rubbish/Recycling Trucks, low maintenance costs)
 * Rural Post Office (4 Post vans, low maintenance costs)
 * Rural Welfare Office (Low maintenance costs)
+* Rural Fire Station - Low Maintenance Costs, Upgradable Watch Tower and Helipad (1 Helicopter)
 
-# Credits:
+## Credits:
 * Thank you to Konsi for all your help with assets.
 * Thank you to StarQ for assisting with the new asset format. 
+* Thank you to TDW for Asset Icon Library. 
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.jpg" />
@@ -32,18 +34,21 @@ Hope you Enjoy!
 	<Screenshot Value="Properties/Post.png" />
 	<Screenshot Value="Properties/Rubbish.png" />
 	<Screenshot Value="Properties/Welfare.png" />
+	<Screenshot Value="Properties/FireStation.png" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.12" />
+	<ModVersion Value="1.1.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
-	<Dependency Id="" />
+	<Dependency Id="79634" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Removed APM Dependancy, Updated to new asset format" />
+	<ChangeLog Value="
+* Updated Icons (Thanks StarQ and Chameleon)
+* Added Editor Category" />
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
