@@ -12,7 +12,7 @@ namespace DansRuralPack
         //public static ILog log = LogManager.GetLogger($"{nameof(DansRuralPack)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
 
         public static string Name = "Dans Rural Services Pack";
-        public static string Version = "1.0.11";
+        public static string Version = "1.0.12";
         public static string Author = "DanielVNZ";
 
         public static string uiHostName = "danielvnz-dansruralservicespack";

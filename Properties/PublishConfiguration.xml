@@ -15,7 +15,7 @@ Hope you Enjoy!
 
 ## Added Assets:
 * Rural Police Station (5 police cars, 3 jail cells, low maintenance costs)
-* Rural Medical Centre (2 ambulances, 10 hospital beds, low maintenance costs)
+* Rural Medical Centre (3 ambulances, 10 hospital beds, low maintenance costs)
 * Rural Recycling Centre (2 Rubbish/Recycling Trucks, low maintenance costs)
 * Rural Post Office (4 Post vans, low maintenance costs)
 * Rural Welfare Office (Low maintenance costs)
@@ -24,10 +24,11 @@ Hope you Enjoy!
 ## Credits:
 * Thank you to Konsi for all your help with assets.
 * Thank you to StarQ for assisting with the new asset format. 
-* Thank you to TDW for Asset Icon Library. 
+* Thank you to TDW for Asset Icon Library.
+* Thank you Tigon for assisting with the cok file formats. 
 	</LongDescription>
 	<!--Thumbnail-->
-	<Thumbnail Value="Properties/Thumbnail.jpg" />
+	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
 	<Screenshot Value="Properties/Medical.png" />
 	<Screenshot Value="Properties/Police.png" />
@@ -38,19 +39,22 @@ Hope you Enjoy!
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
+	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/dans-rural-services-pack.1713108/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.1.1" />
+	<ModVersion Value="1.1.3" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.1.*" />
+	<GameVersion Value="1.2.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="79634" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="
-* Updated Icons (Thanks StarQ and Chameleon)
-* Added Editor Category" />
+	<ChangeLog>
+		## 1.1.3
+		* Changed asset category.
+
+	</ChangeLog>
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/DanielVNZ/Dans-Rural-Services-Asset-Pack" />
+	<ExternalLink Type="kofi" Url="https://ko-fi.com/danielvnz" />
 </Publish>
